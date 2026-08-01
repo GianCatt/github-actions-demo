@@ -1,12 +1,5 @@
 {
-    "name": "github-actions-demo",
-    "version": "1.0.0",
-    "description": "Demo project",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Running tests...\" && exit 0"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
-  }
+  "name": "demo",
+  "scripts": { "test": "jest" },
+  "dependencies": { "jest": "^29.0.0" }
+}
